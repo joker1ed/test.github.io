@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="libs/normalizecss/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="libs/selectbox/jquery.selectBox.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+</head>
+<body>
+
+ <div class="header_nav">
+       <div class="container">
+       	<div class="row">
+       		
+       		<div class="col-xl-2 col-lg-3 col-md-12 col-sm-12 col-12">
+					<div class="header_nav_left">
+						<ul>
+							<li><a href=""><img src="img/ico/shop-cart.png" alt=""> Cart</a></li>
+							<li><a href="">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-7 col-lg-6 col-md-12 col-sm-12 col-12">
+					<div class="header_nav_center">
+						<img src="img/logo.png" alt="">
+				</div>
+			</div>
+				<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+					<div class="header_nav_right">
+						  <ul>
+						  	<li><a href="#"><img src="img/ico/user.png" alt=""> Sign in</a></li>
+						  	<li><a href="#main_header" class="header_btn btn">Order now</a></li>
+						  </ul>
+					</div>
+				</div>
+
+       	</div>
+       </div>		
+</div>
+
+
+<div class="main_header" id="main_header">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
+				<img src="img/bottles.png" alt="">
+			</div>
+			<div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
+				<div class="header_bye">
+					<h1 class="header_bye_head">More than food</h1>
+					<p class="header_bye_text">Everything your body needs in one bottle of Simpleat. Drink Simpleat and forget about hunger. Be the first to try nutrition<br> designe for your needs.</p>
+                    <p class="header_bye_shipp">
+                    	Free shipping for orders over €90
+                    </p>
+                    <form class="header_form" >
+                    	<select class="botle">
+                    		<option value="€32">12 bottles</option>
+                    		<option value="€42">24 bottles</option>
+                    		<option value="€52">36 bottles</option>
+                    		<option value="€62">48 bottles</option>
+                    		<option value="€72">60 bottles</option>
+                    		<option value="€82">72 bottles</option>
+                    		<option value="€92">84 bottles</option>
+                    		<option value="€102">96 bottles</option>
+                    		<option value="€145">96 bottles</option>
+                    		<option value="€156">108 bottles</option>
+                    		<option value="€182">120 bottles</option>
+                    		</select>
+                          <div class="check">
+                    			
+                    				<div class="inp">
+                    					<input type="radio" id="Purchase" name="1" value="Add to cart">
+                    					<label for="Purchase" class="checkbox">
+                    						<div class="checkbox_text">One-Time<br><span>Purchase</span></div>
+                    					</label>
+                    				</div>
+                    					
+                                         
+                    				
+                    				
+                    			<div class="inp">
+                    				<input type="radio" id="Subscribe" name="1" checked value="Subscribe">
+                    				<label for="Subscribe" class="checkbox">
+                    				<div class="checkbox_text2">Subscribe<br><span>and save 5%</span></div>
+                    			    </label>
+                    			    <div class="clue">
+                    			    	<p>By subscribing you will receive 12 bottles of Simpleat monthly
+                    			        </p>
+                    			        <p>You can cancel your subscription anytime.<a href="">Learn more</a></p>
+                    			    </div>
+                    			</div>
+                    		         
+                    				
+                    			
+                    		</div>
+                    	   <div class="form_price">
+                    	   	<div class="price">
+                    	   		<article>€32</article>
+                    	   		<span>€2.60 per meal (400 kcal)</span>
+                    	   	</div>
+
+                    	   	<div class="btn-wrap">
+                    	   		<a href="#" id="changeBtn" class="btn">Subscribe</a>
+                    	   		<a href="#" id="changeBtn2" class="btn">Add to cart</a>
+                    	   	</div>
+                    	   </div>
+                    </form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<div id="bg_popup">
+  <div id="popup">
+
+<p>This website uses cookies. The information in the cookies is used to provide the best experience for you on our website.</p>
+<a class="close btn" href="#" title="Закрыть" onclick="document.getElementById('bg_popup').style.display='none'; return false;">I agree</a>
+</div>
+</div>  
+
+
+</div>
+
+
+
+<section class="simpleat">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-5 col-lg-12 col-sm-12">
+				<div class="about">
+					<h1>What is Simpleat?</h1>
+					<p>Simpleat is made to provide the perfectly balanced diet with every nutrient your body needs for optimal health.</p>
+					<p>Simpleat will take care of your hunger while you have more important things to do whether it is your work, business, travel or simply having fun</p>
+
+				</div>
+			</div>
+			<div class="col-xl-7 col-lg-12 col-sm-12">
+				<div class="video_player">
+					<div class="play_btn">
+						<img src="img/play.svg" alt="">
+						<p class="play_text">Play video</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <div class="popup_player">
+    	<div class="youtube-video">
+    		<iframe id="y-player" width="760" height="415" src="https://www.youtube.com/embed/E-wCcsmtijA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    	</div>
+    		<div class="player_close">
+    	</div>
+    </div>
+</section>
+
+
+<section class="merits">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-12">
+				<div class="merits_header heading">
+					<h1>Why Simpleat?</h1>
+					<p>Enjoy all the benefits of Simpleat</p>
+				</div>	
+
+			</div>
+
+			<div class="col-xl-2 col-lg-4 col-md-6">
+				<div class="merits_item item">
+					<img src="img/merits1.jpg" alt="">
+					<h3>Complete nutrition</h3>
+					<p>One bottle of Simleat provides 20% of your daiyly needs for calories and micronutrients</p>
+				</div>	
+			</div>
+			<div class="col-xl-2 col-lg-4 col-md-6">
+				<div class="merits_item item">
+					<img src="img/merits1.jpg" alt="">
+					<h3>Save time</h3>
+					<p>Spend your time on business, sport, work, family or fun. Simpleat will take care of your nutrition.</p>
+				</div>	
+			</div>
+			<div class="col-xl-2 col-lg-4 col-md-6">
+				<div class="merits_item item">
+					<img src="img/merits1.jpg" alt="">
+					<h3>Save money</h3>
+					<p>Reasonable price for a complete, balanced and healthy meal. </p>
+				</div>	
+			</div>
+			<div class="col-xl-2 col-lg-4 col-md-6">
+				<div class="merits_item item">
+					<img src="img/merits1.jpg" alt="">
+					<h3>Great health</h3>
+					<p>Simpleat helps your body to stay healthy and vibrant.</p>
+				</div>	
+			</div>
+			<div class="col-xl-2 col-lg-4 col-md-6">
+				<div class="merits_item">
+					<img src="img/merits1.jpg" alt="">
+					<h3>High energy</h3>
+					<p>No sugar spikes, only sustainable level of energy.</p>
+				</div>	
+			</div>
+			<div class="col-xl-2 col-lg-4 col-md-6">
+				<div class="merits_item">
+					<img src="img/merits1.jpg" alt="">
+					<h3>No hunger</h3>
+					<p>A bottle of Simpleat immediately saves you from hunger and satisfy your body needs. </p>
+				</div>	
+			</div>
+			<div class="col-xl-12">
+				<a href="" class="merits_btn btn">Order Simpleat</a>
+			</div>
+		</div>
+	</div>
+	
+</section>
+  
+<section class="testimonial">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-12">
+				<div class="testimonial_header heading">
+					<h1>Testimonial</h3>
+					<p>Simpleat is made to provide the perfectly balanced diet with every nutrient your body needs for optimal health.</p>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-6 col-md-6">
+				<div class="testimonial_item">
+					<div class="testimonial_item_player">
+						<video src="#" poster="img/people/person1.jpg"></video>
+						<div class="test_play">
+							<img src="img/play.svg" alt="">
+						</div>
+					</div>
+					<div class="testimonial_item_text">
+						<h4>Stiv, 25  •  Manager </h4>
+						<p>Lorem ipsum dolor sit elit,sed do eiusmod elit,sed do eiusmod ipsum </p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-6 col-md-6">
+				<div class="testimonial_item">
+					<div class="testimonial_item_player">
+						<video src="#" poster="img/people/person2.jpg"></video>
+						<div class="test_play">
+							<img src="img/play.svg" alt="">
+						</div>
+					</div>
+					<div class="testimonial_item_text">
+						<h4>Stiv, 25  •  Manager </h4>
+						<p>Lorem ipsum dolor sit elit,sed do eiusmod elit,sed do eiusmod ipsum </p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-6 col-md-6 ">
+				<div class="testimonial_item">
+					<div class="testimonial_item_player">
+						<video src="#" poster="img/people/person3.jpg"></video>
+					
+					</div>
+					<div class="testimonial_item_text">
+						<h4>Stiv, 25  •  Manager </h4>
+						<p>Lorem ipsum dolor sit elit,sed do eiusmod elit,sed do eiusmod ipsum </p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-6 col-md-6">
+				<div class="testimonial_item">
+					<div class="testimonial_item_player">
+						<video src="#" poster="img/people/person4.jpg"></video>
+						<div class="test_play">
+							<img src="img/play.svg" alt="">
+						</div>
+					</div>
+					<div class="testimonial_item_text">
+						<h4>Stiv, 25  •  Manager </h4>
+						<p>Lorem ipsum dolor sit elit,sed do eiusmod elit,sed do eiusmod ipsum </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+
+<section class="ingredients">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-12">
+				<div class="ingredients_header heading">
+					<h1>Main Ingredients</h1>
+					<p>What is inside Simpleat?</p>
+			     </div>
+			</div>
+			
+			<div class="col-xl-2 offset-xl-1 col-lg-4 col-md-6">
+				<div class="ingredients_item item">
+					<img src="img/oat.png" alt="">
+					 <h3>Oat flour</h3>
+					 <p>The perfect mix of lipids from sea algae, coconut, sunflower, flaxseed and canola. Rich with omega-3, unsaturated fatty acids DHA and EPA, which contribute to the normal function of the heart and brain function.</p>
+				</div>
+			</div>
+			<div class="col-xl-2 col-lg-4 col-md-6">
+				<div class="ingredients_item item">
+					<img src="img/oat.png" alt="">
+					 <h3>Oat flour</h3>
+					 <p>The perfect mix of lipids from sea algae, coconut, sunflower, flaxseed and canola. Rich with omega-3, unsaturated fatty acids DHA and EPA, which contribute to the normal function of the heart and brain function.</p>
+				</div>
+			</div>
+			<div class="col-xl-2 col-lg-4 col-md-6">
+				<div class="ingredients_item item">
+					<img src="img/oat.png" alt="">
+					 <h3>Oat flour</h3>
+					 <p>The perfect mix of lipids from sea algae, coconut, sunflower, flaxseed and canola. Rich with omega-3, unsaturated fatty acids DHA and EPA, which contribute to the normal function of the heart and brain function.</p>
+				</div>
+			</div>
+			<div class="col-xl-2 col-lg-4 col-md-6">
+				<div class="ingredients_item item">
+					<img src="img/oat.png" alt="">
+					 <h3>Oat flour</h3>
+					 <p>The perfect mix of lipids from sea algae, coconut, sunflower, flaxseed and canola. Rich with omega-3, unsaturated fatty acids DHA and EPA, which contribute to the normal function of the heart and brain function.</p>
+				</div>
+			</div>
+			<div class="col-xl-2 col-lg-4 col-md-12">
+				<div class="ingredients_item item">
+					<img src="img/oat.png" alt="">
+					 <h3>Oat flour</h3>
+					 <p>The perfect mix of lipids from sea algae, coconut, sunflower, flaxseed and canola. Rich with omega-3, unsaturated fatty acids DHA and EPA, which contribute to the normal function of the heart and brain function.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="nutrition">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-xl-12">
+				<div class="nutrition_header heading">
+					<h1>Nutritional Facts</h1>
+				</div>
+			</div>
+
+			<div class="col-xl-4 col-lg-4 col-md-7">
+
+				<div class="nutrition_item nutr-1">
+
+					<div class="nutrition_item_block gr">
+						<div class="group">
+							<h4>Energy</h4>
+							<p>400 kcal in one bottle<br>
+								20% of your daily needs</p>
+						</div>
+						<img src="img/ico/forma1.png" alt="">
+					          </div>
+				       
+			          
+
+					<div class="nutrition_item_block mr">
+						<div class="group">
+							<h4>Nutrients</h4>
+							<p>400 kcal in one bottle<br>
+								20% of your daily needs</p>
+						</div>
+						<img src="img/ico/forma2.png" alt="">
+					</div>
+
+					<div class="nutrition_item_block">
+
+						<div class="group">
+							<h4>Neutral pleasant taste</h4>
+							<p>400 kcal in one bottle<br>
+								20% of your daily needs</p>
+						</div>
+						<img src="img/ico/forma3.png" alt="">
+					</div>
+
+				</div>
+			</div>
+
+
+
+			<div class="col-xl-4 col-lg-4 dis">
+				<div class="bottle-wrap">
+					<img src="img/bottle.png" alt=""><br><br>
+					<a href="">Download PDF</a>
+				</div>
+			</div>
+
+
+			<div class="col-xl-4 col-lg-4  col-md-5">
+
+				<div class="nutrition_item nutr-2">
+
+					<div class="nutrition_item_block">
+						<img src="img/ico/forma4.png" alt="">
+						<div class="group">
+							<h4>Vegan, lactose-free, nut-free</h4>
+							<p>400 kcal in one bottle<br>
+								20% of your daily needs</p>
+						</div>
+						
+					</div>
+
+					<div class="nutrition_item_block ml">
+						<img src="img/ico/forma5.png" alt="">
+						<div class="group">
+							<h4>Scientifically approved</h4>
+							<p>400 kcal in one bottle<br>
+								20% of your daily needs</p>
+						</div>
+						
+					</div>
+
+					<div class="nutrition_item_block">
+						<img src="img/ico/forma6.png" alt="">
+						<div class="group">
+							<h4>Anywhere you go</h4>
+							<p>400 kcal in one bottle<br>
+								20% of your daily needs</p>
+						</div>
+						
+					</div>
+
+				</div>
+
+
+
+			</div>
+
+
+			<div class="col-xl-12">
+				<a href="#" class="nutrition_btn btn">Order Now</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="graph">
+	<div class="conteiner">
+		<div class="row">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+				<div class="graph_header heading">
+					<h1>Low glycemic and insulin index</h1>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				</div>
+			</div>
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+				<img src="img/Vector.png" alt="">
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="food">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-12">
+				<div class="food_header heading center">
+				<h1>Simpleat-Super Food</h1>
+				<p>Nutritional Profile.<br> 
+                    Click on the Title to learm more</p>
+			</div>
+			</div>
+			<div class="tabs center active-tabs  col-xl-2 offset-xl-2 col-lg-2 offset-lg-2 col-md-2 offset-md-2 col-sm-4 col-xs-4 col-4" data-pat="mac">
+				
+					<a>Macronutrens</a>
+				
+			</div>
+			
+			<div class="tabs center col-xl-2 offset-xl-1 col-lg-2 offset-lg-1 col-md-2 offset-md-1 col-sm-4 col-xs-4 col-4" data-pat="vit">
+				
+					<a>Vitamins</a>
+				
+			</div>
+			<div class="tabs center  col-xl-2 offset-xl-1 col-lg-2 offset-lg-1 col-md-2 offset-md-1 col-sm-4 col-xs-4 col-4" data-pat="min">
+				
+					<a>Minerals</a>
+				
+			</div>
+		</div>
+
+
+			<div class="table">
+				<div class="row">
+				<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12">
+					<div class="table_offer">
+						What's inside?
+						<img src="img/bottle.png" alt="">
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-4 col-6">
+
+					
+						<ul class="table_nutr table_list" data-pat="mac">
+							<li>Calories</li>
+							<li>Fat</li>
+							<li>Saturated</li>
+							<li>Monosaturated</li>
+							<li>Polyunsaturated</li>
+							<li>Omega 3 fatty acids</li>
+							<li>Omega 6 fatty acids</li>
+							<li>Carbohydrates</li>
+							<li>Sugars</li>
+							<li>Fiber</li>
+							<li>Protein</li>
+							<li>Salt</li>
+						</ul>
+					
+                         </div>
+					<div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-4 col-6">
+							<ul class="table_ins table_list">
+							<li><b>Amount</b></li>
+							<li>400 kcal</li>
+							<li>27.7 g</li>
+							<li>10.5 g</li>
+							<li>4.5 g</li>
+							<li>5.5 g</li>
+							<li>7.8 g</li>
+							<li>5.1 g</li>
+							<li>80.6 g</li>
+							<li>70.1 g</li>
+							<li>40.7 g</li>
+							<li>2.4 g</li>
+						</ul>
+					</div>
+					
+					
+
+					<div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-4 col-12">
+						<ul class="table_rs table_list">
+						<li><b>%RI</b></li>
+						<li>20%</li>
+					</ul>
+					
+
+				</div>
+               </div>
+           </div>
+           <div class="table table-2 d-n" data-pat="vit">
+				<div class="row">
+				<div class="col-lg-5">
+					<div class="table_offer">
+						What's inside?
+						<img src="img/bottle.png" alt="">
+					</div>
+				</div>
+				<div class="col-lg-3">
+
+					
+						<ul class="table_nutr table_list">
+							<li>Calories</li>
+							<li>Fat</li>
+							<li>Saturated</li>
+							<li>Monosaturated</li>
+							<li>Polyunsaturated</li>
+							<li>Omega 3 fatty acids</li>
+							<li>Omega 6 fatty acids</li>
+							<li>Carbohydrates</li>
+							<li>Sugars</li>
+							<li>Fiber</li>
+							<li>Protein</li>
+							<li>Salt</li>
+						</ul>
+					
+                         </div>
+					<div class="col-lg-2">
+							<ul class="table_ins table_list">
+							<li><b>Amount</b></li>
+							<li>400 kcal</li>
+							<li>27.7 g</li>
+							<li>10.5 g</li>
+							<li>4.5 g</li>
+							<li>5.5 g</li>
+							<li>7.8 g</li>
+							<li>5.1 g</li>
+							<li>80.6 g</li>
+							<li>70.1 g</li>
+							<li>40.7 g</li>
+							<li>2.4 g</li>
+						</ul>
+					</div>
+					
+					
+
+					<div class="col-lg-2">
+						<ul class="table_rs table_list">
+						<li><b>%RI</b></li>
+						<li>20%</li>
+					</ul>
+					
+
+				</div>
+               </div>
+           </div>
+
+          <div class="table table-3 d-n" data-pat="min">
+				<div class="row">
+				<div class="col-lg-5">
+					<div class="table_offer">
+						What's inside?
+						<img src="img/bottle.png" alt="">
+					</div>
+				</div>
+				<div class="col-lg-3">
+
+					
+						<ul class="table_nutr table_list">
+							<li>Calories</li>
+							<li>Fat</li>
+							<li>Saturated</li>
+							<li>Monosaturated</li>
+							<li>Polyunsaturated</li>
+							<li>Omega 3 fatty acids</li>
+							<li>Omega 6 fatty acids</li>
+							<li>Carbohydrates</li>
+							<li>Sugars</li>
+							<li>Fiber</li>
+							<li>Protein</li>
+							<li>Salt</li>
+						</ul>
+					
+                         </div>
+					<div class="col-lg-2">
+							<ul class="table_ins table_list">
+							<li><b>Amount</b></li>
+							<li>400 kcal</li>
+							<li>27.7 g</li>
+							<li>10.5 g</li>
+							<li>4.5 g</li>
+							<li>5.5 g</li>
+							<li>7.8 g</li>
+							<li>5.1 g</li>
+							<li>80.6 g</li>
+							<li>70.1 g</li>
+							<li>40.7 g</li>
+							<li>2.4 g</li>
+						</ul>
+					</div>
+					
+					
+
+					<div class="col-lg-2">
+						<ul class="table_rs table_list">
+						<li><b>%RI</b></li>
+						<li>20%</li>
+					</ul>
+					
+
+				</div>
+               </div>
+           </div>
+
+
+		<div class="row">
+			<div class="col-xl-12">
+				<a href="#" class="btn food_btn">Order Now</a>
+			</div>
+		</div>
+		
+		
+	</div>
+</section>
+
+
+
+
+
+<div class="join">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-12">
+				<div class="join_header heading">
+					<h1>Join Us</h1>
+					<p>Stay updated, enjoy special offers and bonuses</p>
+				</div>
+			</div>
+			<div class="col-xl-12">
+				<div class="join_form center">
+					<form action="#">
+						<input type="text" placeholder="Your e-mail">
+						<button class="btn">Sign Up</button>
+					</form>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<footer class="footer" id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-12 center col-12">
+				<ul class="footer_ico">
+					<li><a href="#"><img src="img/ico/facebook.png" alt=""></a></li>
+					<li><a href="#"><img src="img/ico/twitter.png" alt=""></a></li>
+					<li><a href="#"><img src="img/ico/insta.png" alt=""></a></li>
+				</ul>
+			</div>
+			<div class="col-xl-12 center col-12">
+				<ul class="footer_nav">
+					<li><a href="">Blog</a></li>
+					<li><a href="">Faq</a></li>
+					<li><a href="">Legal</a></li>
+				</ul>
+			</div>
+			<div class="col-xl-12 center">
+				<div class="cop">© 2018, Simpleat</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer_bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3 col-lg-3 col-md-12 col-12">
+					<a href="tel:+123 456-789-000" class="footer_phone footer-line d-flex">
+						<span class="footer-img"><img src="img/ico/phone.png" alt=""></span>
+						<div class="footer_text_wrap">
+						      <span>+123 456-789-000</span>
+						      <p>Every day from 8 AM - 8 PM</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-12 col-12">
+					<a class="footer_info footer-line d-flex">
+						<span class="footer-img"><img src="img/ico/sms.png" alt=""></span>
+						<div class="footer_text_wrap">
+						     <span>info@simleat.me</span>
+						      <p>We will respond ASAP</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-xl-6 col-lg-6 text-right col-md-12 col-12">
+					<form action="">
+						<select id="lang">
+							<option value=""><img src="img/ico/flag.jpg" alt="">English</option>
+						</select>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<script type="text/javascript">
+    var delay_popup = 1000;
+    setTimeout("document.getElementById('bg_popup').style.display='block'", delay_popup);
+</script> 
+	<script src="libs/Jquery/dist/jquery.js"></script>
+	<script src="libs/selectbox/jquery.selectBox.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>
